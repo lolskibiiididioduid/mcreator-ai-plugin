@@ -1,6 +1,10 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Benjimen Is Fallen. - Apple of Eden advancement with regen reward"
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 48
+    },
+    "description": "Benjimen Is Fallen. (Java 1.21.1 only) - Apple of Eden + Heaven system"
   }
 }
