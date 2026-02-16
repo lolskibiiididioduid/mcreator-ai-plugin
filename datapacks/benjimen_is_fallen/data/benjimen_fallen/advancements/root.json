@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Benjimen Is Fallen.",
+    "description": "A path shaped by the Apple of Eden",
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "automatic": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
