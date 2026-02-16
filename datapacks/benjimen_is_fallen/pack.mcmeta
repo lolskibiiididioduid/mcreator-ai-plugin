@@ -1,6 +1,12 @@
 {
   "pack": {
+    "description": "Benjimen Is Fallen. (Java 1.21.11 only) - Apple of Eden + Heaven system",
     "pack_format": 48,
-    "description": "Benjimen Is Fallen. (Java 1.21.11 only) - Apple of Eden + Heaven system"
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 48
+    },
+    "min_format": 48,
+    "max_format": 48
   }
 }
