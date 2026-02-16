@@ -1,0 +1,22 @@
+{
+  "parent": "benjimen_fallen:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": "Your are now holy!",
+    "description": "Heaven has accepted your soul",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "become_holy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "benjimen_fallen:reward_holy"
+  }
+}
