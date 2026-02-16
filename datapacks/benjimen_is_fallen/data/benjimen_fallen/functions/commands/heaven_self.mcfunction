@@ -1,2 +1,3 @@
-# Self-send helper. Requires permission to run /function.
-function benjimen_fallen:send_to_heaven
+# Disabled by request.
+# Heaven teleport is OP-command only.
+# Use: /execute as <player> run function benjimen_fallen:commands/heaven_player

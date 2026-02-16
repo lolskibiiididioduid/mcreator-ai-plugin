@@ -2,9 +2,6 @@
 effect give @a[tag=eden_apple_of_eden_power] minecraft:regeneration 6 1 true
 execute as @a[tag=eden_apple_of_eden_power] if score @s eden_deaths > @s eden_prev_deaths run tag @s remove eden_apple_of_eden_power
 
-# 1% heaven roll each time a player dies.
-execute as @a if score @s eden_deaths > @s eden_prev_deaths run function benjimen_fallen:on_death
-
 # Heaven resident effects and lock-in behavior.
 effect give @a[tag=heaven_resident] minecraft:invisibility 6 0 true
 effect give @a[tag=heaven_resident] minecraft:saturation 6 0 true
